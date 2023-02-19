@@ -1,7 +1,9 @@
 
 function DarkMode() {
     var element = document.body;
-    element.classList.toggle("dark-mode");
+    element.classList.add("dark-mode");
+    element.classList.remove("light-mode");
+
     document.getElementById("title").style.color = "white";
     document.getElementById("one").style.color = "white";
     document.getElementById("ca-creation").style.color = "white";
@@ -20,7 +22,7 @@ function DarkMode() {
 
     var userName = document.getElementById('USname').value;
     var userPw = document.getElementById('USpass').value;
-    console.log(storedName.value);
+    console.log(storedName.v3alue);
     var khaibao = localStorage.getItem("List");
     var tr = false;
 
