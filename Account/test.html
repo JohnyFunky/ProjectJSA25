@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch and Review Films For Free</title>
+    <link href="../Account/tests.css"rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="tabs">
+            <p id="lt" class="tabs" onclick="loginTabFun()">Log in</p>
+            <p id="rt" class="tabs" onclick="regTabFun()">Register</p>
+
+            <div id="clear"></div>
+        </div>
+
+        <div id="cont">
+            <div id="login" class="comm">
+                <h3>Sign in</h3>
+                <h4 style="color: black; padding-left: 15px; padding-bottom: 5px;;">Please sign in this form in order to access your account</h4>
+                <hr style=" width: 90%; color: black; border: 1.5px solid black; border-radius: 20px; margin-left: 10px;">
+
+                <input id="se" type="email" placeholder="Email" required style="margin-top: 10px"/>
+                <input id="sp" type="password" placeholder="Password" required/>
+                <input type="submit" onclick="login()" value="Submit"/>
+
+                <p onclick="forTabFun()">Forget Password?</p>
+            </div>
+            <div id="register" class="comm">
+                <h3>Register</h3>
+
+                <input id="re" type="email" placeholder="Email" required style="width: 70%;"/>
+                <input id="rp" type="password" placeholder="Password" required style="width: 70%;"/>
+                <input id="rrp" type="password" placeholder="Re write Password" required style="width: 70%;"    />
+                <input type="submit" onclick="register()" value="Submit"/>
+
+            </div >
+            <div id="forgot" class="comm">
+            <h3>Forgot Password</h3>
+            <div>
+                <input id="fe" type="email" placeholder="Email" required/>
+                <input type="submit" onclick="forgot()" value="Submit"/>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--<div id="footer">
+        <h2>By. Mansoor Amin </br> Roll No. 1941</h2>
+
+    </div>-->
+
+
+    <script src="test.js">
+    </script>
+</body>
+</html>

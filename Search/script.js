@@ -15,7 +15,7 @@ getMovies(API_URL);
 
 function getMovies(url) {
 
-    fetch(url).then(res => res.json).then(data => {
+    fetch(url).then(res => res.json()).then(data => {
         console.log(data.results);
         showMovies(data.results);
     })
