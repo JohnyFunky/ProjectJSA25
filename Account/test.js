@@ -105,7 +105,7 @@ function login(){
     }
     else {
         alert(email + " You are login Now \n Welcome to our website.");
-        window.location.href = "accountpage.html";
+        window.open("../Account_page/accountpage.html");
         document.getElementById("se").value ="";
         document.getElementById("sp").value="";
         return ;
