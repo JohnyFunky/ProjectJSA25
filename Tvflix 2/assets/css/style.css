@@ -901,3 +901,60 @@ body {
   .backdrop-image { border-top-left-radius: var(--radius-36); }
 
 }
+
+/* footer */
+.footer {
+  height: 80px;
+  width: 100%;
+  background-color: var(--background);
+  border-top: white 1px solid;
+}
+
+.full-container {
+  width: 100%;
+  display: flex;
+}
+
+.row1 {
+  width: 20%;
+  margin-left: 180px;
+}
+
+.row1 h1 {
+  font-size: 50px;
+}
+
+.row2 {
+width: 30%;
+display: flex;
+}
+
+.row2 a {
+  padding-left: 20px;
+  padding-top: 30px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.row2 a:hover  {
+color:gray;
+}
+
+.row3 {
+width: 30%;
+}
+
+.row3 h3 {
+  padding-top: 10px;  
+}
+
+.row3 input {
+  border: 2px solid hsla(250, 2%, 59%, 1);;
+  border-radius: 8px;
+  transition: 0.5s;
+  width: 200px;
+}
+
+.row3 input::placeholder {
+  padding-left: 5px;
+}
