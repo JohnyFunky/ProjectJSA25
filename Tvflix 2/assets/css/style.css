@@ -958,3 +958,133 @@ width: 30%;
 .row3 input::placeholder {
   padding-left: 5px;
 }
+
+.container1 {
+  background-image: linear-gradient(
+        45deg,
+        rgba(1, 1, 1, 0.7),
+        rgba(136, 136, 176, 0.6)
+    ),
+    url(https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1718&q=80);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.a-tags {
+  display: flex;
+  width: 100%;
+  margin-left: 420px;
+  margin-top: 30px;
+}
+
+.a-tags a {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.a-tags a:hover {
+  opacity: 0.8;
+}
+
+.information {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.img-1 {
+  width: 50%;
+  height: 100vh;
+  background-image: linear-gradient(
+    45deg,
+    rgba(1, 1, 1, 0.7),
+    rgba(136, 136, 176, 0.6)
+),url(https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+}
+
+.info-2 {
+  width: 50%;
+  text-align: justify;
+  padding-right: 5px;
+  padding-top: 150px;
+  background-color: hsla(250, 1%, 44%, 1);
+  padding-left: 30px;
+}
+
+.img-3 {
+  width: 50%;
+  height: 100vh;
+  background-image: linear-gradient(
+    45deg,
+    rgba(1, 1, 1, 0.7),
+    rgba(136, 136, 176, 0.6)
+),url(https://images.unsplash.com/photo-1616530940355-351fabd9524b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}
+
+.info-4 {
+  width: 50%;
+  text-align: justify;
+  padding-left: 35px;
+  padding-top: 150px;
+  background-color: hsla(250, 1%, 44%, 1);
+  padding-right: 15px;
+}
+
+.column-team {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card-team {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-team {
+  padding: 0 16px;
+}
+
+.container-team::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title-team {
+  color: grey;
+}
+
+.button-team {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.button-team:hover {
+  background-color: #555;
+}
+
+.review1{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    45deg,
+    rgba(1, 1, 1, 0.7),
+    rgba(136, 136, 176, 0.6)
+),url();
+}
